@@ -13,9 +13,8 @@ The main environment is:
 - vtk 9.2.6
 
 ## Datasets
-The train and example datasets can be downloaded from:
-https://drive.google.com/file/d/13OEzMAidi74Pn8npvkE3_EHjF8OvtjOw/view?usp=drive_link
-You can unzip it and add it to the project's path.
+The train and example datasets can be downloaded from https://drive.google.com/file/d/13OEzMAidi74Pn8npvkE3_EHjF8OvtjOw/view?usp=drive_link
+And you can unzip it and add it to the project's path.
 
 ## Train Model
 ``` 
@@ -34,7 +33,7 @@ bash test.sh
 The fiber bundle category to which the obtained clusters belong are listed in table ```swm_labels.csv``` and ```dwm_labels.csv```. Note that the ```labels``` in the table is the last number of the resulting bundle (.vtk) file.
 
 ## References
-Thanks to the code of SupWMA (https://github.com/SlicerDMRI/SupWMA), this is the project we rely on.
+Thanks to the code of <a href=https://github.com/SlicerDMRI/SupWMA>SupWMA</a>, this is the project we rely on.
 Please cite the following papers for using the code and/or the training data:
 ``` 
 Xue T, Zhang F, Zhang C, et al. Superficial white matter analysis: An efficient point-cloud-based deep learning framework with supervised contrastive learning for consistent tractography parcellation across populations and dMRI acquisitions[J]. Medical Image Analysis, 2023, 85: 102759.
