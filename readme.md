@@ -36,13 +36,17 @@ The fiber bundle category to which the obtained clusters belong are listed in ta
 Thanks to the code of <a href=https://github.com/SlicerDMRI/SupWMA>SupWMA</a>, this is the project we rely on.
 Please cite the following papers for using the code and/or the training data:
 ``` 
-Xue T, Zhang F, Zhang C, et al. Superficial white matter analysis: An efficient point-cloud-based deep learning framework with supervised contrastive learning for consistent tractography parcellation across populations and dMRI acquisitions[J]. Medical Image Analysis, 2023, 85: 102759.
+Xue T, Zhang F, Zhang C, et al.
+Superficial white matter analysis: An efficient point-cloud-based deep learning framework with supervised contrastive learning for consistent tractography parcellation across populations and dMRI acquisitions.
+Medical Image Analysis, 2023, 85: 102759.
 
 Zhang, F., Wu, Y., Norton, I., Rathi, Y., Makris, N., O'Donnell, LJ. 
 An anatomically curated fiber clustering white matter atlas for consistent white matter tract parcellation across the lifespan. 
 NeuroImage, 2018 (179): 429-447
 
-James G Malcolm, Martha E Shenton, Yogesh Rathi (2009). Neural tractography using an unscented Kalman filter. In International Conference on Information Processing in Medical Imaging, pp. 126–138.
+James G Malcolm, Martha E Shenton, Yogesh Rathi.
+Neural tractography using an unscented Kalman filter.
+In International Conference on Information Processing in Medical Imaging,2019, pp. 126–138.
 
 O'Donnell LJ, Wells III WM, Golby AJ, Westin CF. 
 Unbiased groupwise registration of white matter tractography.
