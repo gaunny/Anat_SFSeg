@@ -11,7 +11,12 @@ The main environment is:
 - whitematteranalysis 0.4.0 (``` pip install git+https://github.com/SlicerDMRI/whitematteranalysis.git ```)
 - h5py 3.7.0
 - vtk 9.2.6
-  
+
+## Datasets
+The train and example datasets can be downloaded from:
+https://drive.google.com/file/d/13OEzMAidi74Pn8npvkE3_EHjF8OvtjOw/view?usp=drive_link
+You can unzip it and add it to the project's path.
+
 ## Train Model
 ``` 
 cd scripts
