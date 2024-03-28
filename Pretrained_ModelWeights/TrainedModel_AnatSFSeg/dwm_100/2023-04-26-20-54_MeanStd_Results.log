@@ -1,0 +1,13 @@
+2023-04-26 20:54:56,114 The number of classes is 800
+2023-04-26 20:54:56,114 The number of experiment implementations is 4
+2023-04-26 20:54:56,114 Use the weight with best f1 for each fold
+2023-04-26 20:54:56,114 =======================================================
+2023-04-26 20:54:56,114 The average accuracy for ./ModelWeights/dwm is 98.502 %
+
+2023-04-26 20:54:56,114 The average macro precision for ./ModelWeights/dwm is 98.350 % and standard deviation is 1.672 %
+
+2023-04-26 20:54:56,114 The average macro recall for ./ModelWeights/dwm is 98.322 % and standard deviation is 1.723 %
+
+2023-04-26 20:54:56,114 The average macro f1 for ./ModelWeights/dwm is 98.334 % and standard deviation is 1.641 %
+
+2023-04-26 20:54:56,114 =======================================================

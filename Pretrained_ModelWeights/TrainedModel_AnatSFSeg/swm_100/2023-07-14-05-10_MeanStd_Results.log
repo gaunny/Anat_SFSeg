@@ -1,0 +1,13 @@
+2023-07-14 05:10:45,431 The number of classes is 198
+2023-07-14 05:10:45,431 The number of experiment implementations is 5
+2023-07-14 05:10:45,431 Use the weight with best f1 for each fold
+2023-07-14 05:10:45,431 =======================================================
+2023-07-14 05:10:45,431 The average accuracy for ./ModelWeights/swm_100_3rd is 98.367 % 
+
+2023-07-14 05:10:45,431 The average macro precision for ./ModelWeights/swm_100_3rd is 98.362 % and standard deviation is 0.994 %
+
+2023-07-14 05:10:45,431 The average macro recall for ./ModelWeights/swm_100_3rd is 98.349 % and standard deviation is 1.030 %
+
+2023-07-14 05:10:45,431 The average macro f1 for ./ModelWeights/swm_100_3rd is 98.355 % and standard deviation is 0.966 %
+
+2023-07-14 05:10:45,431 =======================================================
