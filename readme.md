@@ -2,7 +2,11 @@
 Code for our *Medical Image Analysis* paper "Anat-SFSeg: Anatomically-guided superﬁcial ﬁber segmentation with point-cloud deep learning"
 ![framework](img/pipeline_revision.png)
 If you find this code useful in your research please cite
-
+```
+Zhang D, Zong F, Zhang Q, et al.
+Anat-SFSeg: Anatomically-guided superficial fiber segmentation with point-cloud deep learning[J].
+Medical Image Analysis, 2024, 95: 103165.
+``` 
 ## Setup
 The main environment is:
 - cuda 11.3
