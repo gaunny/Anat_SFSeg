@@ -146,12 +146,10 @@ def finetune_sequence(seg_cls,atlas,input_path,atlas_cluster,output_path):
         # normalize the ind_FiberAnatMap of WMA atlas
         nonzero_num = []
         atlas_new = np.zeros((atlas.shape))
-        for i in range(2000): #TODO dwm是8000，swm是2000
-            nonzero_index = np.nonzero(atlas[i])[0]  #返回非零元素的索引
+        for i in range(2000): 
+            nonzero_index = np.nonzero(atlas[i])[0]  
             nonzero_num.append(nonzero_index.shape[0])
-        # print(min(nonzero_num))  #8 表示2000swm_region中每行最少有8个非零值。后面就保留每一行的top8，其他的设为0
             top_k_idx = np.argpartition(atlas[i], -8)[-8:]
-            # 将除了最大的8个数以外的元素设为0
             mask = np.zeros_like(atlas[i])
             mask[top_k_idx] = 1
             atlas_new[i] = atlas[i] * mask
@@ -199,9 +197,8 @@ def finetune_sequence(seg_cls,atlas,input_path,atlas_cluster,output_path):
         for i in range(8000): 
             nonzero_index = np.nonzero(atlas[i])[0]  
             nonzero_num.append(nonzero_index.shape[0])
-        # print(min(nonzero_num))  #8 表示2000swm_region中每行最少有8个非零值。后面就保留每一行的top8，其他的设为0
+        # print(min(nonzero_num))  
             top_k_idx = np.argpartition(atlas[i], -8)[-8:]
-            # 将除了最大的8个数以外的元素设为0
             mask = np.zeros_like(atlas[i])
             mask[top_k_idx] = 1
             atlas_new[i] = atlas[i] * mask
