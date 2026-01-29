@@ -118,9 +118,6 @@ if __name__ == "__main__":
         device = torch.device("cuda:0")
 
     k=198  #SWM outliers class
-    out_path = '/data/home/dzhang/data1/AD_MCI/fiber2region_result/Anat_SFSeg_output/AD05/swm_outliers/'  
-    if not os.path.exists(out_path):
-        os.makedirs(out_path)
 
     # Parse arguments
     parser = argparse.ArgumentParser(description="Use the stage-two model of SupWMA to filter the swm outliers.")
@@ -137,7 +134,7 @@ if __name__ == "__main__":
 
     if not os.path.exists(args.output_path):
         os.makedirs(args.output_path)
-
+    
     with open(os.path.join(args.weight_path, 's1_cls', 'stage1_params.pickle'), 'rb') as f:
         stage1_params = pickle.load(f)
         f.close()
