@@ -163,7 +163,7 @@ def delete_wm(output_path):
         intersect.remove(24) #CSF
         intersect.remove(80) #non-WM-hypointensities    
     print('intersect_deleted:',len(intersect)) #105
-    #把num和新的re拼起来
+    
     ind_FiberAnatMap_all = None
     ind_FiberAnatMap_all_subjects = None
     for j in range(len(folders)):
